@@ -1,0 +1,6 @@
+framework module PTSwiftProtocol {
+  umbrella header "PTSwiftProtocol-umbrella.h"
+
+  export *
+  module * { export * }
+}

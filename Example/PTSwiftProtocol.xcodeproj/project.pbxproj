@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		13BC6C73681F812EDF0C6D75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		13BC6C73681F812EDF0C6D75 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		542F7C26F22891E963A5259A /* Pods-PTSwiftProtocol_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTSwiftProtocol_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PTSwiftProtocol_Tests/Pods-PTSwiftProtocol_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		590E42CCF6FE87699045AA84 /* Pods-PTSwiftProtocol_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTSwiftProtocol_Example.release.xcconfig"; path = "Target Support Files/Pods-PTSwiftProtocol_Example/Pods-PTSwiftProtocol_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5A989AC26BD5EB31EE0B0720 /* Pods_PTSwiftProtocol_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTSwiftProtocol_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,11 +42,12 @@
 		607FACE51AFB9204008FA782 /* PTSwiftProtocol_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PTSwiftProtocol_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		74B5D610271BC732A3D1A8E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		74B5D610271BC732A3D1A8E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8E3E7F6341E5538CD3A2F921 /* Pods-PTSwiftProtocol_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTSwiftProtocol_Example.debug.xcconfig"; path = "Target Support Files/Pods-PTSwiftProtocol_Example/Pods-PTSwiftProtocol_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B4DB9067DE00C46B4BDCE842 /* Pods_PTSwiftProtocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTSwiftProtocol_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1ED98225CCEE0E001B15B3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C8970E0651BAA75031853CF1 /* Pods-PTSwiftProtocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTSwiftProtocol_Tests.release.xcconfig"; path = "Target Support Files/Pods-PTSwiftProtocol_Tests/Pods-PTSwiftProtocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D729EC7328AFBC2E854753A5 /* PTSwiftProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PTSwiftProtocol.podspec; path = ../PTSwiftProtocol.podspec; sourceTree = "<group>"; };
+		D729EC7328AFBC2E854753A5 /* PTSwiftProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PTSwiftProtocol.podspec; path = ../PTSwiftProtocol.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +78,13 @@
 				542F7C26F22891E963A5259A /* Pods-PTSwiftProtocol_Tests.debug.xcconfig */,
 				C8970E0651BAA75031853CF1 /* Pods-PTSwiftProtocol_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				BA1ED98225CCEE0E001B15B3 /* .swiftlint.yml */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for PTSwiftProtocol */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -172,6 +173,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				7EF439B1CEAF1ADD9A43FE72 /* [CP] Embed Pods Frameworks */,
+				BA1ED98025CCEDDC001B15B3 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -213,11 +215,13 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 4P3Y6F2LC5;
+						LastSwiftMigration = 1220;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						DevelopmentTeam = 4P3Y6F2LC5;
+						LastSwiftMigration = 1220;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +231,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -324,6 +329,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PTSwiftProtocol_Example/Pods-PTSwiftProtocol_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BA1ED98025CCEDDC001B15B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -419,7 +441,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +487,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -478,13 +500,14 @@
 			baseConfigurationReference = 8E3E7F6341E5538CD3A2F921 /* Pods-PTSwiftProtocol_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P3Y6F2LC5;
 				INFOPLIST_FILE = PTSwiftProtocol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -493,13 +516,14 @@
 			baseConfigurationReference = 590E42CCF6FE87699045AA84 /* Pods-PTSwiftProtocol_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4P3Y6F2LC5;
 				INFOPLIST_FILE = PTSwiftProtocol/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -507,6 +531,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 542F7C26F22891E963A5259A /* Pods-PTSwiftProtocol_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4P3Y6F2LC5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -520,7 +545,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PTSwiftProtocol_Example.app/PTSwiftProtocol_Example";
 			};
 			name = Debug;
@@ -529,6 +554,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8970E0651BAA75031853CF1 /* Pods-PTSwiftProtocol_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 4P3Y6F2LC5;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -538,7 +564,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PTSwiftProtocol_Example.app/PTSwiftProtocol_Example";
 			};
 			name = Release;

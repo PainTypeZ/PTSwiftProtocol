@@ -1,0 +1,16 @@
+PODS:
+  - PTSwiftProtocol (0.1.0)
+
+DEPENDENCIES:
+  - PTSwiftProtocol (from `../`)
+
+EXTERNAL SOURCES:
+  PTSwiftProtocol:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PTSwiftProtocol: ada89d3ba4fb232456fae7258bb70e8f6bd623db
+
+PODFILE CHECKSUM: e766354cd73bd60829b5529e332ea0021d65d91c
+
+COCOAPODS: 1.10.0
