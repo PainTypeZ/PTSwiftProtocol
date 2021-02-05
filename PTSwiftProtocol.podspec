@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PTSwiftProtocol'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of PTSwiftProtocol.'
+  s.summary          = 'PTSwiftProtocol'
   s.swift_versions   = '5.3.0'
 
 # This description is used to generate tags and improve search results.

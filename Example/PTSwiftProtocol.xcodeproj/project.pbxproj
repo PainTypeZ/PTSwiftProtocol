@@ -47,7 +47,7 @@
 		B4DB9067DE00C46B4BDCE842 /* Pods_PTSwiftProtocol_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PTSwiftProtocol_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA1ED98225CCEE0E001B15B3 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		C8970E0651BAA75031853CF1 /* Pods-PTSwiftProtocol_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PTSwiftProtocol_Tests.release.xcconfig"; path = "Target Support Files/Pods-PTSwiftProtocol_Tests/Pods-PTSwiftProtocol_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D729EC7328AFBC2E854753A5 /* PTSwiftProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PTSwiftProtocol.podspec; path = ../PTSwiftProtocol.podspec; sourceTree = "<group>"; };
+		D729EC7328AFBC2E854753A5 /* PTSwiftProtocol.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PTSwiftProtocol.podspec; path = ../PTSwiftProtocol.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
