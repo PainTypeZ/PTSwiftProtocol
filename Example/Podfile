@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PTSwiftProtocol_Example' do
+  pod 'PTSwiftProtocol', :path => '../'
+
+  target 'PTSwiftProtocol_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
